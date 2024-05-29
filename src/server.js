@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const socketIo = require('socket.io');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const eventRoutes = require('./routes/eventRoutes');
+const eventRoutes = require('./event/routes/eventRoutes');
 
 // Load environment variables
 dotenv.config();
